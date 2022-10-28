@@ -1,0 +1,104 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Chèn các kiểu</title>
+        <style>
+            body
+            {
+                background-image: url("Background.png");
+                background-size: cover;
+                font-size: larger;
+            }
+            h1
+            {
+                font-family: "Fuzzy Bubbles";
+                color: rgb(250, 50,0);
+                text-align: center;
+            }
+            h2
+            {
+                font-family: "Fuzzy Bubbles";
+                color: rgb(250, 50,0);                
+                text-align: center;
+            }
+            p
+            {
+                font-family: "Mali";
+                text-align: center;
+            }
+            #icon_html
+            {
+                margin-left: 500px;
+            }
+            #icon_css
+            {
+                margin-left: 100px;
+            }
+            #icon_javascript
+            {
+                margin-left: 100px;
+            }
+            #video
+            {
+                margin-left: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Chèn hình</h1>
+
+        <!-- Chèn background -->
+        <h2>Chèn background</h2>
+        <p>Trong phần body của thẻ style, thuộc tính "background-image" sẽ đặt background <br></p>
+
+        <p><b>Một số thuộc tính liên quan đến background:</b><br>
+        background-size: đặt kích thước và cách đặt background</p>
+
+        <!-- Chèn hình -->
+        <h2>Chèn hình</h2>
+        <p>Thêm hình bằng tag img trong phần body</p>
+
+        <p><b>Các thuộc tính liên quan</b>
+            <br> src: Nguồn hình thể hiện bằng nguồn dẫn
+            <br> width: Căn tỷ lệ hình theo chiều ngang
+            <br> height: Căn tỷ lệ hình theo chiều dọc
+            <br> id: (Hầu như ở các tag chèn) Đặt id cho tag
+            <br><i>Nếu muốn gọi hình đó ở tag style, chỉ cần #(id), ví dụ #picture</i>
+            <br> alt: Đoạn chữ để miêu tả hình khi nó bị lỗi
+            <br> anonymous: Ẩn danh
+        </p>
+        <p>
+            <b>Các thuộc tính ở phần style</b>
+            <br> margin-(phần nào đó): Chừa lề bên bên nào đó ở
+            <br> padding-(phần nào đó): Mở rộng hitbox bên phần nào đó (không làm to hình)
+            <br> border: Kẻ viền ngoài
+        </p>
+        <img id="icon_html" src="html.png">
+        <img id="icon_css" src="css.png">
+        <img id="icon_javascript" src="javascript.png">
+
+        <!-- Chèn video -->
+        <h2>Chèn video</h2>
+        <p>Chèn thêm video bằng tag video</p>
+
+        <p><b>Các thuộc tính liên quan</b>
+            <br> width: Căn tỷ lệ video theo chiều ngang
+            <br> height: Căn tỷ lệ video theo chiều dọc
+            <br> autoplay: Tự động phát video
+            <br> loop: Cho video tự lặp lại khi hết
+            <br> controls: Cho người dùng điều khiển được video
+            <br> poster: Chỉnh thumbnailcủa video
+            <br> anonymous: ????
+        </p>
+        <video id="video" width="400px" controls anonymous loop poster=Thumbnail.png ><source src="Video.mp4"></video>
+        
+        <!-- Chèn link -->
+        <h1>Chèn link</h1>
+        <p>Chèn thêm link bằng tag a, bên trong tag a sẽ là chữ</p>
+        
+        <p><b>Các thuộc tính liên quan</b>
+            <br> href: Link
+            <br><a href="https://youtu.be/ExEAKQDz0E8">Link video</a>
+        </p>
+    </body>
+</html>
